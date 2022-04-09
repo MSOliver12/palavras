@@ -13,7 +13,7 @@ while True:
     aprender=arq.readlines()
     aprender=[x.strip('\n') for x in aprender]
     #print(aprender)
-    palavras=['ano','pano','plano','fulano','relogio','pescador']
+    palavras=['ano','pano','plano','lembrar','relogio','pescador']
     for i in p:
         palavras.append(i)
     #print(f'Palavras {palavras}')
